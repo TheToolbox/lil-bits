@@ -1,0 +1,33 @@
+{
+  "name": "lilbits",
+  "version": "0.1.0",
+  "description": "Hey, are your browsers small? Do you like code that's tiny and easy to digest? Are you tired of those other places that give you these giant frameworks with superloops and black-ops DOMs? Well come on down to lil-bits! We've got tiny modules! *lil-bits*",
+  "main": "dist/lil-bits.js",
+  "scripts": {
+    "test": "mocha test/test.js",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheToolbox/lil-bits.git"
+  },
+  "keywords": [
+    "framework",
+    "tiny",
+    "bits",
+    "little",
+    "rick",
+    "smaller-than-angular"
+  ],
+  "author": "Jason \"Toolbox\" Oettinger <jason@oettinger.email>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TheToolbox/lil-bits/issues"
+  },
+  "homepage": "https://github.com/TheToolbox/lil-bits#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "mocha": "^2.4.5",
+    "typescript": "^1.8.10"
+  }
+}
